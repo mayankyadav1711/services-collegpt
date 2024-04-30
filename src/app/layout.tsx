@@ -15,6 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
+    
     <html suppressHydrationWarning lang="en">
       {/*
         <head /> will contain the components returned by the nearest parent

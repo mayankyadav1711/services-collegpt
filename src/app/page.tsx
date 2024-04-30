@@ -10,6 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import Starfield from 'react-starfield';
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -20,6 +21,12 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
+    <Starfield
+        starCount={1000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+        backgroundColor="black"
+      />
       <ScrollUp />
       <Hero />
       <Features />
