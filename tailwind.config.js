@@ -37,6 +37,7 @@ module.exports = {
       animation: {
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
+        shimmer: "shimmer 8s infinite",
       },
       colors: {
         current: "currentColor",
@@ -80,6 +81,14 @@ module.exports = {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
       keyframes: {
+        shimmer: {
+          "0%, 90%, 100%": {
+            "background-position": "calc(-100% - var(--shimmer-width)) 0",
+          },
+          "30%, 60%": {
+            "background-position": "calc(100% + var(--shimmer-width)) 0",
+          },
+        },
         "spin-around": {
           "0%": {
             transform: "translateZ(0) rotate(0)",

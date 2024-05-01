@@ -1,31 +1,31 @@
 import SectionTitle from "../Common/SectionTitle";
-import SingleFeature from "./SingleFeature";
+import { MagicCard, MagicContainer } from "@/components/magicui/magic-card";
 import featuresData from "./featuresData";
-import ShimmerButton from "@/components/magicui/ShimmerButton"; // Import ShimmerButton
 
 const Features = () => {
   return (
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
-          {/* Add ShimmerButton at the top of the section */}
-          <ShimmerButton className="shadow-2xl">
-        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-          Explore More
-        </span>
-      </ShimmerButton>
-
           <SectionTitle
             title="Main Features"
             paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
             center
           />
-
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
+          <MagicContainer className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
+              <MagicCard key={feature.id} className="flex w-full cursor-pointer flex-col items-center justify-center overflow-hidden p-20 shadow-2xl">
+                {feature.icon}
+                <p className="z-10 mt-4 text-2xl font-medium text-gray-800 dark:text-gray-200">
+                  {feature.title}
+                </p>
+                <p className="z-10 mt-2 text-gray-500 dark:text-gray-400">
+                  {feature.paragraph}
+                </p>
+                <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]" />
+              </MagicCard>
             ))}
-          </div>
+          </MagicContainer>
         </div>
       </section>
     </>
