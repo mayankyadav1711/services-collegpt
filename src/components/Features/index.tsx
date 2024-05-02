@@ -31,11 +31,11 @@ const Features = () => {
         
       </motion.h1>
     </LampContainer>
-    <div className="container mt-[-10rem]">
-  <div className="flex flex-wrap justify-center">
+    <div className="container mt-[-20rem]">
+  <div className="flex flex-wrap justify-center mt-[-1rem]">
     {/* First line with three cards */}
-    <div className="flex gap-8">
-        <CardContainer className="inter-var w-96">
+    <div className="flex flex-wrap gap-2 lg:gap-8">
+        <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
@@ -80,7 +80,7 @@ const Features = () => {
         </div>
       </CardBody>
     </CardContainer>
-    <CardContainer className="inter-var w-96">
+    <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
@@ -125,7 +125,7 @@ const Features = () => {
         </div>
       </CardBody>
     </CardContainer>
-    <CardContainer className="inter-var w-96">
+    <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
@@ -150,7 +150,7 @@ const Features = () => {
           Hover over this card to unleash the power of CSS perspective
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        <div className="flex  justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -173,8 +173,8 @@ const Features = () => {
     </div>
 
     {/* Second line with the remaining cards */}
-    <div className="flex gap-8 mt-[-8rem]">
-    <CardContainer className="inter-var w-96">
+    <div className="flex flex-wrap gap-2 lg:gap-8 mt-[-8rem]">
+    <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
@@ -219,7 +219,7 @@ const Features = () => {
         </div>
       </CardBody>
     </CardContainer>
-    <CardContainer className="inter-var w-96">
+    <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
@@ -264,7 +264,7 @@ const Features = () => {
         </div>
       </CardBody>
     </CardContainer>
-    <CardContainer className="inter-var w-96">
+    <CardContainer className="inter-var lg:w-96">
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[90%] mt-4 ml-[5%]">
           <Image
