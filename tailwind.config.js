@@ -47,6 +47,8 @@ module.exports = {
         dark: "#1D2430",
         primary: "#4A6CF7",
         yellow: "#FBB040",
+        primaryLight: 'rgba(18, 184, 255, 0.2)',
+        primaryDark: '#f9c48f89',
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",
@@ -110,6 +112,11 @@ module.exports = {
         },
       },
     
+    },
+  },
+  variants: {
+    extend: {
+      backgroundColor: ['dark'],
     },
   },
   plugins: [],

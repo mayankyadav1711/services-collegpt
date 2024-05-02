@@ -25,7 +25,7 @@ const Features = () => {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-0 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+        className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-gray-300/80 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         Main Features <br />
         
