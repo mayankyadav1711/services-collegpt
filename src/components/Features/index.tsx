@@ -15,7 +15,7 @@ const Features = () => {
  
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="features" className="">
       <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
