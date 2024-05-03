@@ -38,6 +38,7 @@ module.exports = {
         "spin-around": "spin-around calc(var(--speed) * 2) infinite linear",
         slide: "slide var(--speed) ease-in-out infinite alternate",
         shimmer: "shimmer 8s infinite",
+        orbit: "orbit calc(var(--duration)*1s) linear infinite",
       },
       colors: {
         current: "currentColor",
@@ -47,8 +48,8 @@ module.exports = {
         dark: "#1D2430",
         primary: "#4A6CF7",
         yellow: "#FBB040",
-        primaryLight: 'rgba(18, 184, 255, 0.2)',
-        primaryDark: '#f9c48f89',
+        // primaryLight: 'rgba(18, 184, 255, 0.2)',
+        // primaryDark: '#f9c48f89',
         "bg-color-dark": "#171C28",
         "body-color": {
           DEFAULT: "#788293",
@@ -83,6 +84,14 @@ module.exports = {
         three: "0px 5px 15px rgba(6, 8, 15, 0.05)",
       },
       keyframes: {
+        orbit: {
+          "0%": {
+              transform: "rotate(0deg) translateY(calc(var(--radius) * 1px)) rotate(0deg)",
+          },
+          "100%": {
+              transform: "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
+          },
+      },
         shimmer: {
           "0%, 90%, 100%": {
             "background-position": "calc(-100% - var(--shimmer-width)) 0",
@@ -114,10 +123,10 @@ module.exports = {
     
     },
   },
-  variants: {
-    extend: {
-      backgroundColor: ['dark'],
-    },
-  },
+  // variants: {
+  //   extend: {
+  //     backgroundColor: ['dark'],
+  //   },
+  // },
   plugins: [],
 };
