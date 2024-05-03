@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // Basic Swiper styles
 import 'swiper/css/navigation'; // Styles for the navigation
 import 'swiper/css/pagination';
+import Image from 'next/image';
 // Import required modules
 import { Navigation, Pagination } from 'swiper/modules';
 
@@ -33,14 +34,21 @@ const CarouselComponent = () => {
           
               >
                 <SwiperSlide>
-                  <img src="https://i.ibb.co/qsp62jM/hjnjnnnn.png" alt="Slide 1" layout="fill" objectFit="cover" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://i.ibb.co/qkyP1Z3/shgbdjnjnxc.png" alt="Slide 2" layout="fill" objectFit="cover" />
-                </SwiperSlide>
-                <SwiperSlide>
-                  <img src="https://i.ibb.co/qsp62jM/hjnjnnnn.png" alt="Slide 3" layout="fill" objectFit="cover" />
-                </SwiperSlide>
+  <div className="relative h-[400px]">
+    <Image src="https://i.ibb.co/qsp62jM/hjnjnnnn.png" alt="Slide 1" layout="fill" objectFit="cover" />
+  </div>
+</SwiperSlide>
+<SwiperSlide>
+  <div className="relative h-[400px]">
+    <Image src="https://i.ibb.co/qkyP1Z3/shgbdjnjnxc.png" alt="Slide 2" layout="fill" objectFit="cover" />
+  </div>
+</SwiperSlide>
+<SwiperSlide>
+  <div className="relative h-[400px]">
+    <Image src="https://i.ibb.co/qsp62jM/hjnjnnnn.png" alt="Slide 3" layout="fill" objectFit="cover" />
+  </div>
+</SwiperSlide>
+
                 {/* Additional slides here */}
               </Swiper>
             </div>
