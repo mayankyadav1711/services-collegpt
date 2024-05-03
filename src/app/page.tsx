@@ -11,6 +11,8 @@ import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 import Starfield from 'react-starfield';
+import Choose from "@/components/Choose"
+import Review from "@/components/Reviews.tsx";
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -31,12 +33,14 @@ export default function Home() {
       <Hero />
       <Features />
       <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
-      <Blog />
+      {/* <Brands /> */}
+      {/* <AboutSectionOne /> */}
+      {/* <AboutSectionTwo /> */}
+      {/* <Testimonials /> */}
+      <Choose />
+      <Review />
+      {/* <Pricing /> */}
+      {/* <Blog /> */}
       <Contact />
     </>
   );

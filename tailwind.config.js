@@ -39,6 +39,8 @@ module.exports = {
         slide: "slide var(--speed) ease-in-out infinite alternate",
         shimmer: "shimmer 8s infinite",
         orbit: "orbit calc(var(--duration)*1s) linear infinite",
+        marquee: "marquee var(--duration) linear infinite",
+        "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
       },
       colors: {
         current: "currentColor",
@@ -91,6 +93,14 @@ module.exports = {
           "100%": {
               transform: "rotate(360deg) translateY(calc(var(--radius) * 1px)) rotate(-360deg)",
           },
+      },
+      marquee: {
+        from: { transform: "translateX(0)" },
+        to: { transform: "translateX(calc(-100% - var(--gap)))" },
+      },
+      "marquee-vertical": {
+        from: { transform: "translateY(0)" },
+        to: { transform: "translateY(calc(-100% - var(--gap)))" },
       },
         shimmer: {
           "0%, 90%, 100%": {
