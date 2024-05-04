@@ -27,7 +27,7 @@ const Video = () => {
 
   return (
 <>
-<div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20">
+<div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20 ">
       <p className="z-10 whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white">
         Templates
       </p>
@@ -43,6 +43,7 @@ const Video = () => {
         )}
       />
       </div>
+      <div className="w-full bg-[url(/images/video/shape2.svg)] bg-cover bg-center bg-no-repeat">
 <div className="container flex flex-col items-center justify-center gap-14 w-[80%] h-full">
                     <Swiper
                         effect={"coverflow"}
@@ -86,8 +87,8 @@ const Video = () => {
                     </Swiper>
 
                    
-                            
                              
+                            </div>
                             </div>
 </>
   );
