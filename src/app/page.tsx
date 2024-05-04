@@ -14,6 +14,8 @@ import Starfield from 'react-starfield';
 import Choose from "@/components/Choose"
 import Review from "@/components/Reviews.tsx";
 import { TechStack } from "@/components/TechStack";
+import { Globe } from "@/components/Globe";
+// import Beams  from "@/components/Beams"
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -41,9 +43,11 @@ export default function Home() {
       {/* <Testimonials /> */}
       <Choose />
       <Review />
+      {/* <Beams /> */}
       {/* <Pricing /> */}
       {/* <Blog /> */}
       <Contact />
+      <Globe />
     </>
   );
 }
