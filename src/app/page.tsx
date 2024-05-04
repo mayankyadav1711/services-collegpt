@@ -13,6 +13,7 @@ import { Metadata } from "next";
 import Starfield from 'react-starfield';
 import Choose from "@/components/Choose"
 import Review from "@/components/Reviews.tsx";
+import { TechStack } from "@/components/TechStack";
 
 export const metadata: Metadata = {
   title: "Free Next.js Template for Startup and SaaS",
@@ -23,15 +24,16 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-    <Starfield
-        starCount={1000}
+    {/* <Starfield
+        starCount={700}
         starColor={[255, 255, 255]}
         speedFactor={0.05}
         backgroundColor="black"
-      />
+      /> */}
       <ScrollUp />
       <Hero />
       <Features />
+      <TechStack />
       <Video />
       {/* <Brands /> */}
       {/* <AboutSectionOne /> */}

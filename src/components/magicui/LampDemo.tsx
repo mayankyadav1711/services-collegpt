@@ -48,7 +48,7 @@ export const LampContainer = ({
           style={{
             backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
           }}
-          className="bg-gradient-conic absolute inset-auto right-1/2 h-56 w-[30rem] overflow-visible from-[#12b8ff33] via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top] dark:from-[#f9c48f89] dark:via-transparent"
+          className="bg-gradient-conic absolute inset-auto right-1/2 h-56 w-[30rem] overflow-visible from-[#12b8ff33] via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top]  dark:via-transparent"
         >
           <div className="absolute  bottom-0 left-0 z-20 h-40 w-[100%] bg-white [mask-image:linear-gradient(to_top,white,transparent)] dark:bg-black" />
           <div className="absolute  bottom-0 left-0 z-20 h-[100%] w-40  bg-white [mask-image:linear-gradient(to_right,white,transparent)] dark:bg-black" />
@@ -64,14 +64,14 @@ export const LampContainer = ({
           style={{
             backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
           }}
-          className="bg-gradient-conic absolute inset-auto left-1/2 h-56 w-[30rem] from-transparent via-transparent to-[#12b8ff33] text-white [--conic-position:from_290deg_at_center_top] dark:to-[#f9c48f89]"
+          className="bg-gradient-conic absolute inset-auto left-1/2 h-56 w-[30rem] from-transparent via-transparent to-[#12b8ff33] text-white [--conic-position:from_290deg_at_center_top] "
         >
           <div className="absolute  bottom-0 right-0 z-20 h-[100%] w-40 bg-white [mask-image:linear-gradient(to_left,white,transparent)] dark:bg-black" />
           <div className="absolute  bottom-0 right-0 z-20 h-40 w-[100%] bg-white [mask-image:linear-gradient(to_top,white,transparent)] dark:bg-black" />
         </motion.div>
         <div className="absolute top-1/2 h-48 w-full translate-y-12 scale-x-150 bg-transparent blur-2xl"></div>
         <div className="absolute top-1/2 z-50 h-48 w-full bg-transparent opacity-10 backdrop-blur-md"></div>
-        <div className="absolute inset-auto z-50 h-36 w-[28rem] -translate-y-1/2 rounded-full bg-[#12b8ff33] opacity-50 blur-3xl dark:bg-[#ffb1625c]"></div>
+        <div className="absolute inset-auto z-50 h-36 w-[28rem] -translate-y-1/2 rounded-full bg-[#12b8ff33] opacity-50 blur-3xl "></div>
         <motion.div
           initial={{ width: "8rem" }}
           whileInView={{ width: "16rem" }}
@@ -90,7 +90,7 @@ export const LampContainer = ({
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-[#12b8ff] dark:bg-[#f9c48f89] "
+          className="absolute inset-auto z-50 h-0.5 w-[30rem] -translate-y-[7rem] bg-[#12b8ff]  "
         ></motion.div>
 
         <div className="absolute inset-auto z-40 h-44 w-full -translate-y-[12.5rem] bg-white dark:bg-black "></div>
