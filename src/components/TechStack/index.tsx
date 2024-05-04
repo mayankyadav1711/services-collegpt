@@ -140,14 +140,21 @@ reverse
         <Icons.gitHub />
       </OrbitingCircles> */}
     </div>
-    <div className="bg-transparent p-10 lg:p-0">
+    <div className="bg-transparent p-6 lg:p-10">
     <h1 className="text-center text-black dark:text-white dark:bg-gradient-to-br from-white from-30% to-white/40 dark:bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter dark:text-transparent text-balance sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
     Frontend
 </h1>
 <p className="text-lg text-justify font-mono font-medium text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, laudantium, magnam consequatur ab nihil blanditiis cupiditate a minus eos consequuntur dignissimos necessitatibus illo omnis fugit natus dolorum eaque esse? Veritatis, provident repellendus est eaque, tenetur perferendis praesentium molestiae at accusamus possimus similique atque fuga totam, maxime officia saepe aut!</p>
       </div>
       </div>
-    <div className=" relative flex h-[500px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background ">
+      <div className="hidden lg:inline-flex border justify-center items-center align-middle m-2 pr-4 rounded-sm dark:hover:shadow-2xl dark:hover:shadow-[#62818263] dark:border-[#b4fbff38]">
+      <div className="bg-transparent p-6 lg:p-10">
+    <h1 className="text-center text-black dark:text-white dark:bg-gradient-to-br from-white from-30% to-white/40 dark:bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter dark:text-transparent text-balance sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
+    Backend
+</h1>
+<p className="text-lg text-justify font-mono font-medium text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, laudantium, magnam consequatur ab nihil blanditiis cupiditate a minus eos consequuntur dignissimos necessitatibus illo omnis fugit natus dolorum eaque esse? Veritatis, provident repellendus est eaque, tenetur perferendis praesentium molestiae at accusamus possimus similique atque fuga totam, maxime officia saepe aut!</p>
+      </div>
+    <div className="relative flex h-[500px] w-full lg:min-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background ">
       
       <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         
@@ -158,7 +165,7 @@ reverse
         className="h-[30px] w-[30px] border-none bg-transparent"
         duration={20}
         delay={20}
-        radius={80}
+        radius={60}
       >
         <Icons.whatsapp />
       </OrbitingCircles>
@@ -166,31 +173,234 @@ reverse
         className="h-[30px] w-[30px] border-none bg-transparent"
         duration={20}
         delay={10}
-        radius={80}
+        radius={60}
       >
         <Icons.notion />
       </OrbitingCircles>
-
-      {/* Outer Circles (reverse) */}
-      <OrbitingCircles
-        className="h-[50px] w-[50px] border-none bg-transparent"
-        reverse
-        radius={190}
+<OrbitingCircles
+        className="h-[30px] w-[30px] border-none bg-transparent"
         duration={20}
+        delay={15}
+        radius={60}
       >
         <Icons.googleDrive />
       </OrbitingCircles>
       <OrbitingCircles
-        className="h-[50px] w-[50px] border-none bg-transparent"
-        reverse
-        radius={190}
+        className="h-[30px] w-[30px] border-none bg-transparent"
         duration={20}
-        delay={20}
+        delay={5}
+        radius={60}
       >
         <Icons.gitHub />
       </OrbitingCircles>
+      {/* Outer Circles (reverse) */}
+      <OrbitingCircles
+      reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={140}
+      >
+        <Icons.whatsapp />
+      </OrbitingCircles>
+      <OrbitingCircles
+      reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={140}
+      >
+        <Icons.notion />
+      </OrbitingCircles>
+<OrbitingCircles
+reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={15}
+        radius={140}
+      >
+        <Icons.googleDrive />
+      </OrbitingCircles>
+      <OrbitingCircles
+      reverse
+        className="h-[45px] w-[45px] border-none bg-transparent"
+        duration={20}
+        delay={5}
+        radius={140}
+      >
+        <Icons.gitHub />
+      </OrbitingCircles>
+
       
+      {/* 3rd round  */}
+      {/* <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={240}
+      >
+        <Icons.whatsapp />
+      </OrbitingCircles>
+      <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={240}
+      >
+        <Icons.notion />
+      </OrbitingCircles>
+<OrbitingCircles
+
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={15}
+        radius={240}
+      >
+        <Icons.googleDrive />
+      </OrbitingCircles>
+      <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={25}
+        radius={240}
+      >
+        <Icons.gitHub />
+      </OrbitingCircles> */}
     </div>
+    <div className="lg:hidden bg-transparent p-6 lg:p-10">
+    <h1 className="text-center text-black dark:text-white dark:bg-gradient-to-br from-white from-30% to-white/40 dark:bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter dark:text-transparent text-balance sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
+    Backend
+</h1>
+<p className="text-lg text-justify font-mono font-medium text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, laudantium, magnam consequatur ab nihil blanditiis cupiditate a minus eos consequuntur dignissimos necessitatibus illo omnis fugit natus dolorum eaque esse? Veritatis, provident repellendus est eaque, tenetur perferendis praesentium molestiae at accusamus possimus similique atque fuga totam, maxime officia saepe aut!</p>
+      </div>
+      </div>
+      <div className="lg:inline-flex border justify-center items-center align-middle m-2 pr-4 rounded-sm dark:hover:shadow-2xl dark:hover:shadow-[#62818263] dark:border-[#b4fbff38]">
+    <div className="relative flex h-[500px] w-full lg:min-w-[32rem] items-center justify-center overflow-hidden rounded-lg  bg-background ">
+      
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+        
+      </span>
+
+      {/* Inner Circles */}
+      <OrbitingCircles
+        className="h-[30px] w-[30px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={60}
+      >
+        <Icons.whatsapp />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="h-[30px] w-[30px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={60}
+      >
+        <Icons.notion />
+      </OrbitingCircles>
+<OrbitingCircles
+        className="h-[30px] w-[30px] border-none bg-transparent"
+        duration={20}
+        delay={15}
+        radius={60}
+      >
+        <Icons.googleDrive />
+      </OrbitingCircles>
+      <OrbitingCircles
+        className="h-[30px] w-[30px] border-none bg-transparent"
+        duration={20}
+        delay={5}
+        radius={60}
+      >
+        <Icons.gitHub />
+      </OrbitingCircles>
+      {/* Outer Circles (reverse) */}
+      <OrbitingCircles
+      reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={140}
+      >
+        <Icons.whatsapp />
+      </OrbitingCircles>
+      <OrbitingCircles
+      reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={140}
+      >
+        <Icons.notion />
+      </OrbitingCircles>
+<OrbitingCircles
+reverse
+        className="h-[40px] w-[40px] border-none bg-transparent"
+        duration={20}
+        delay={15}
+        radius={140}
+      >
+        <Icons.googleDrive />
+      </OrbitingCircles>
+      <OrbitingCircles
+      reverse
+        className="h-[45px] w-[45px] border-none bg-transparent"
+        duration={20}
+        delay={5}
+        radius={140}
+      >
+        <Icons.gitHub />
+      </OrbitingCircles>
+
+      
+      {/* 3rd round  */}
+      {/* <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={20}
+        radius={240}
+      >
+        <Icons.whatsapp />
+      </OrbitingCircles>
+      <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={10}
+        radius={240}
+      >
+        <Icons.notion />
+      </OrbitingCircles>
+<OrbitingCircles
+
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={15}
+        radius={240}
+      >
+        <Icons.googleDrive />
+      </OrbitingCircles>
+      <OrbitingCircles
+      
+        className="h-[50px] w-[50px] border-none bg-transparent"
+        duration={20}
+        delay={25}
+        radius={240}
+      >
+        <Icons.gitHub />
+      </OrbitingCircles> */}
+    </div>
+    <div className="bg-transparent p-6 lg:p-10">
+    <h1 className="text-center text-black dark:text-white dark:bg-gradient-to-br from-white from-30% to-white/40 dark:bg-clip-text py-6 text-5xl font-medium leading-none tracking-tighter dark:text-transparent text-balance sm:text-4xl sm:leading-tight md:text-7xl md:leading-tight">
+    SEO
+</h1>
+<p className="text-lg text-justify font-mono font-medium text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam, laudantium, magnam consequatur ab nihil blanditiis cupiditate a minus eos consequuntur dignissimos necessitatibus illo omnis fugit natus dolorum eaque esse? Veritatis, provident repellendus est eaque, tenetur perferendis praesentium molestiae at accusamus possimus similique atque fuga totam, maxime officia saepe aut!</p>
+      </div>
+      </div>
     </div>
     </>
   );
