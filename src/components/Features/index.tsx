@@ -40,7 +40,7 @@ const Features = () => {
     {/* First line with three cards */}
     <div className="flex flex-wrap gap-2 lg:gap-8 justify-center align-middle items-center">
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={web}
@@ -85,7 +85,7 @@ const Features = () => {
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={app}
@@ -130,7 +130,7 @@ const Features = () => {
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={ecom}
@@ -175,7 +175,7 @@ const Features = () => {
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={seo}
@@ -220,7 +220,7 @@ const Features = () => {
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={uiux}
@@ -265,7 +265,7 @@ const Features = () => {
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
-      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#ffb1625c]/[0.2] dark:bg-black dark:border-[#ffb1625c]/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+      <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-[#337d8063] dark:bg-black dark:border-[#62f7ff5c] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
       <CardItem translateZ="100" className="w-[100%]">
           <Image
             src={host}
