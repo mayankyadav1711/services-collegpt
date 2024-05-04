@@ -5,11 +5,28 @@ import 'swiper/css/pagination';
 import Image from 'next/image';
 // Import required modules
 import { Navigation, Pagination } from 'swiper/modules';
-
+import { useEffect } from "react";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 const CarouselComponent = () => {
+  // useEffect(() => {
+  //   const setNavButtonStyles = () => {
+  //     const nextButton = document.querySelector('.swiper-button-next');
+  //     const prevButton = document.querySelector('.swiper-button-prev');
+  //     if (nextButton) {
+  //       nextButton.style.color = 'orange'; // Modify if the navigation uses color for arrows
+  //       nextButton.querySelector('svg')?.setAttribute('fill', 'orange'); // For SVG elements
+  //     }
+  //     if (prevButton) {
+  //       prevButton.style.color = 'orange'; // Modify if the navigation uses color for arrows
+  //       prevButton.querySelector('svg')?.setAttribute('fill', 'orange'); // For SVG elements
+  //     }
+  //   };
+
+  //   // Delay the execution to ensure Swiper has initialized the navigation elements
+  //   setTimeout(setNavButtonStyles, 500); // You might adjust the timing or use a different event
+  // }, []);
   return (
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
@@ -23,7 +40,7 @@ const CarouselComponent = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto max-w-[25rem] overflow-hidden rounded-md" data-wow-delay=".15s">
-              <Swiper
+            <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
                 navigation={true}  
@@ -31,8 +48,8 @@ const CarouselComponent = () => {
                     clickable: true,
                   }}// Enable navigation
                 modules={[Navigation, Pagination]}  // Include the Navigation module
-          
               >
+
                 <SwiperSlide>
   <div className="relative h-[400px]">
     <Image src="https://i.ibb.co/qsp62jM/hjnjnnnn.png" alt="Slide 1" layout="fill" objectFit="cover" />

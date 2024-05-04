@@ -39,6 +39,19 @@
     min-height: 100px; /* Minimum height to maintain a decent look */
   }
 }
+/* Default large radius for non-mobile devices */
+:root {
+  --orbit-radius-small: 80px;  /* Default for small icons */
+  --orbit-radius-large: 190px; /* Default for large icons */
+}
+
+/* Adjust radius for mobile screens */
+@media (max-width: 768px) {
+  :root {
+    --orbit-radius-small: 50px;  /* Smaller radius for mobile */
+    --orbit-radius-large: 150px; /* Smaller radius for mobile */
+  }
+}
 
 /* Additional styles for adjusting padding and margins on smaller screens */
 @media (max-width: 768px) {
@@ -46,10 +59,22 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .radius{
+    width:50px;
+    height:50px;
+  }
   .mt-5 {
     margin-top: 1rem; /* Reduced margin */
   }
 }
+/* Customizing Swiper navigation arrow colors */
+/* Customizing Swiper navigation arrow colors */
+/* Assuming your project's main CSS file or component-specific styles */
+.swiper-button-prev svg, .swiper-button-next svg {
+  fill: orange; /* Change SVG fill color */
+}
+
+
 
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {

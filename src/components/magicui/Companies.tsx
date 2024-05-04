@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import OrbitingCircles from "@/components/magicui/orbiting-circles";
 import { IconProps } from "@radix-ui/react-icons/dist/types";
 // const companies = [
@@ -130,7 +130,25 @@ const Icons = {
 };
 
 export function Companies() {
-  const containerRef = useRef(null);
+  const [radiusSmall, setRadiusSmall] = useState(80);
+  const [radiusLarge, setRadiusLarge] = useState(190);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      setRadiusSmall(width < 768 ? 50 : 80);
+      setRadiusLarge(width < 768 ? 120 : 190);
+    };
+
+    // Set initial sizes
+    handleResize();
+
+    // Handle resize events
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup on component unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <section id="companies">
@@ -146,7 +164,7 @@ export function Companies() {
       className="h-[30px] w-[30px] border-none bg-transparent"
       duration={20}
       delay={20}
-      radius={screen.width < 768 ? 50 : 80} 
+    radius={radiusSmall}
     >
       <Icons.whatsapp />
     </OrbitingCircles>
@@ -154,7 +172,7 @@ export function Companies() {
       className="h-[30px] w-[30px] border-none bg-transparent"
       duration={20}
       delay={10}
-      radius={screen.width < 768 ? 50 : 80} 
+    radius={radiusSmall}
     >
       <Icons.notion />
     </OrbitingCircles>
@@ -163,7 +181,7 @@ export function Companies() {
     <OrbitingCircles
       className="h-[50px] w-[50px] border-none bg-transparent"
       reverse
-        radius={screen.width < 768 ? 120 : 190} 
+         radius={radiusLarge}
       duration={20}
     >
       <Icons.googleDrive />
@@ -171,7 +189,7 @@ export function Companies() {
     <OrbitingCircles
       className="h-[50px] w-[50px] border-none bg-transparent"
       reverse
-        radius={screen.width < 768 ? 120 : 190} 
+         radius={radiusLarge}
       duration={20}
       delay={20}
     >
