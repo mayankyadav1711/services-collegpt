@@ -9,6 +9,47 @@
     font-family: "Inter", sans-serif;
   }
 }
+/* Ensure that the orbiting circles container has a minimum height */
+.orbit-container {
+  min-height: 200px; /* Adjust based on your design needs *//* Adjust based on your design needs */
+}
+
+@media (max-width: 768px) { /* Adjust based on your breakpoint needs */
+  .orbit-container {
+    min-height: 300px;
+    min-width: 300px;
+     /* Larger minimum height for smaller screens */
+  }
+
+  .orbiting-circles {
+    height: 10px;
+    width: 10px;
+  }
+}
+/* Base styles for body or specific classes might be adjusted here */
+
+
+/* Responsive adjustments with media queries */
+@media (max-width: 768px) {
+
+  .flex-auto {
+    overflow-y: auto; /* Adds scrollbar if text overflows */
+    padding: 20px; /* Adds padding to prevent text from touching the edges */
+    height: auto; /* Allows the container to grow based on content */
+    min-height: 100px; /* Minimum height to maintain a decent look */
+  }
+}
+
+/* Additional styles for adjusting padding and margins on smaller screens */
+@media (max-width: 768px) {
+  .px-8 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .mt-5 {
+    margin-top: 1rem; /* Reduced margin */
+  }
+}
 
 @layer components {
   input[type="checkbox"]:checked ~ label span svg {

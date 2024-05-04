@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react";
 import OrbitingCircles from "@/components/magicui/orbiting-circles";
 import { IconProps } from "@radix-ui/react-icons/dist/types";
-const companies = [
-  "Google",
-  "Microsoft",
-  "Amazon",
-  "Netflix",
-  "YouTube",
-  "Instagram",
-  "Uber",
-  "Spotify",
-];
+// const companies = [
+//   "Google",
+//   "Microsoft",
+//   "Amazon",
+//   "Netflix",
+//   "YouTube",
+//   "Instagram",
+//   "Uber",
+//   "Spotify",
+// ];
 const Icons = {
   gitHub: (props: IconProps) => (
     <svg viewBox="0 0 438.549 438.549" {...props}>
@@ -136,8 +136,8 @@ export function Companies() {
     <section id="companies">
     
       
-        <div className="flex flex-col gap-24 md:flex-row mt-5 px-8 h-screen">
-  <div className="relative flex lg:h-[500px] sm:h-[300px] w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border dark:border-gray-300 bg-background md:shadow-xl md:flex-none md:w-[32rem]">
+        <div className="flex flex-col gap-24 md:flex-row mt-10 px-8 h-screen">
+  <div className="relative flex md:h-[28rem] sm:h-screen md:min-h-200px w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border dark:border-gray-300 bg-background md:shadow-xl md:flex-none md:w-[32rem] orbit-container ">
     <div className="bg-gradient-to-b from-black to-[#12b8ff4e] bg-clip-text text-center text-sm font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
     </div>
  
@@ -146,7 +146,7 @@ export function Companies() {
       className="h-[30px] w-[30px] border-none bg-transparent"
       duration={20}
       delay={20}
-      radius={80}
+      radius={screen.width < 768 ? 50 : 80} 
     >
       <Icons.whatsapp />
     </OrbitingCircles>
@@ -154,7 +154,7 @@ export function Companies() {
       className="h-[30px] w-[30px] border-none bg-transparent"
       duration={20}
       delay={10}
-      radius={80}
+      radius={screen.width < 768 ? 50 : 80} 
     >
       <Icons.notion />
     </OrbitingCircles>
@@ -163,7 +163,7 @@ export function Companies() {
     <OrbitingCircles
       className="h-[50px] w-[50px] border-none bg-transparent"
       reverse
-      radius={190}
+        radius={screen.width < 768 ? 120 : 190} 
       duration={20}
     >
       <Icons.googleDrive />
@@ -171,7 +171,7 @@ export function Companies() {
     <OrbitingCircles
       className="h-[50px] w-[50px] border-none bg-transparent"
       reverse
-      radius={190}
+        radius={screen.width < 768 ? 120 : 190} 
       duration={20}
       delay={20}
     >
