@@ -31,14 +31,13 @@
 
 /* Responsive adjustments with media queries */
 @media (max-width: 768px) {
-
-  .flex-auto {
-    overflow-y: auto; /* Adds scrollbar if text overflows */
-    padding: 20px; /* Adds padding to prevent text from touching the edges */
-    height: auto; /* Allows the container to grow based on content */
-    min-height: 100px; /* Minimum height to maintain a decent look */
+  .content-scrollable {
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 200px; /* Set a maximum height to trigger scrolling */
+    padding: 10px; /* Adds padding within the scrollable area */
   }
 }
+
 /* Default large radius for non-mobile devices */
 :root {
   --orbit-radius-small: 80px;  /* Default for small icons */

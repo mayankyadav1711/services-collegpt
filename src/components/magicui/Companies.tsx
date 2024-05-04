@@ -197,17 +197,180 @@ export function Companies() {
     </OrbitingCircles>
   </div>
   <div className="flex-auto text-base text-justify bg-clip-text">
-  <div className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-[#12b8f1] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
-      >
-        Front-End </div>  
-    Front-end development, often referred to as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...o as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...o as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...
+  <div className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-[#12b8f1] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+    Front-End
+  </div>
+  <div className="content-scrollable">
+    Front-end development, often referred to as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...
   </div>
 </div>
 
+</div>
 
-
+<section id="feature-section-lg" className="hidden lg:block">
+<div className="flex flex-col gap-24 md:flex-row mt-10 px-8 h-screen">
+<div className="flex-auto text-base text-justify bg-clip-text">
+  <div className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-[#12b8f1] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+    Front-End
+  </div>
+  <div className="content-scrollable">
+    Front-end development, often referred to as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...
+  </div>
+</div>
+  <div className="relative flex md:h-[28rem] sm:h-screen md:min-h-200px w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border dark:border-gray-300 bg-background md:shadow-xl md:flex-none md:w-[32rem] orbit-container ">
+    <div className="bg-gradient-to-b from-black to-[#12b8ff4e] bg-clip-text text-center text-sm font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    </div>
  
+    {/* Inner Circles */}
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={20}
+    radius={radiusSmall}
+    >
+      <Icons.whatsapp />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={10}
+    radius={radiusSmall}
+    >
+      <Icons.notion />
+    </OrbitingCircles>
+ 
+    {/* Outer Circles (reverse) */}
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+    >
+      <Icons.googleDrive />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+      delay={20}
+    >
+      <Icons.gitHub />
+    </OrbitingCircles>
+  </div>
 
+
+</div>
+</section>
+
+
+<section id="feature-section-sm" className="block lg:hidden relative">
+<div className="flex flex-col gap-24 md:flex-row mt-10 px-8 h-screen">
+  <div className="relative flex md:h-[28rem] sm:h-screen md:min-h-200px w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border dark:border-gray-300 bg-background md:shadow-xl md:flex-none md:w-[32rem] orbit-container ">
+    <div className="bg-gradient-to-b from-black to-[#12b8ff4e] bg-clip-text text-center text-sm font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    </div>
+ 
+    {/* Inner Circles */}
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={20}
+    radius={radiusSmall}
+    >
+      <Icons.whatsapp />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={10}
+    radius={radiusSmall}
+    >
+      <Icons.notion />
+    </OrbitingCircles>
+ 
+    {/* Outer Circles (reverse) */}
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+    >
+      <Icons.googleDrive />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+      delay={20}
+    >
+      <Icons.gitHub />
+    </OrbitingCircles>
+  </div>
+  <div className="flex-auto text-base text-justify bg-clip-text">
+  <div className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-[#12b8f1] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+    Front-End
+  </div>
+  <div className="content-scrollable">
+    Front-end development, often referred to as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...
+  </div>
+</div>
+
+</div>
+</section>
+
+<div className="flex flex-col gap-24 md:flex-row mt-10 px-8 h-screen">
+  <div className="relative flex md:h-[28rem] sm:h-screen md:min-h-200px w-full max-w-[32rem] items-center justify-center overflow-hidden rounded-lg border dark:border-gray-300 bg-background md:shadow-xl md:flex-none md:w-[32rem] orbit-container ">
+    <div className="bg-gradient-to-b from-black to-[#12b8ff4e] bg-clip-text text-center text-sm font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+    </div>
+ 
+    {/* Inner Circles */}
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={20}
+    radius={radiusSmall}
+    >
+      <Icons.whatsapp />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[30px] w-[30px] border-none bg-transparent"
+      duration={20}
+      delay={10}
+    radius={radiusSmall}
+    >
+      <Icons.notion />
+    </OrbitingCircles>
+ 
+    {/* Outer Circles (reverse) */}
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+    >
+      <Icons.googleDrive />
+    </OrbitingCircles>
+    <OrbitingCircles
+      className="h-[50px] w-[50px] border-none bg-transparent"
+      reverse
+         radius={radiusLarge}
+      duration={20}
+      delay={20}
+    >
+      <Icons.gitHub />
+    </OrbitingCircles>
+  </div>
+  <div className="flex-auto text-base text-justify bg-clip-text">
+  <div className="mt-0 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-500 bg-gradient-to-b from-black to-[#12b8f1] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl">
+    Front-End
+  </div>
+  <div className="content-scrollable">
+    Front-end development, often referred to as client-side development, is the practice of producing HTML, CSS, and JavaScript for a website or Web Application so that a user can see and interact with them directly. The challenge of front-end development is that tools and techniques...
+  </div>
+</div>
+
+</div>
     </section>
   );
 }
