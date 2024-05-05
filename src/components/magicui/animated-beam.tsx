@@ -23,8 +23,8 @@ export interface AnimatedBeamProps {
   endXOffset?: number;
   endYOffset?: number;
 }
-
-export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
+export function AnimatedBeam({
+// export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
   className,
   containerRef,
   fromRef,
@@ -42,7 +42,7 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
   startYOffset = 0,
   endXOffset = 0,
   endYOffset = 0,
-}) => {
+}: AnimatedBeamProps) {
   const id = useId();
   const [pathD, setPathD] = useState("");
   const [svgDimensions, setSvgDimensions] = useState({ width: 0, height: 0 });
