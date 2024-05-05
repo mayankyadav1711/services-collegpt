@@ -179,4 +179,3 @@ export function AnimatedBeam({
     </svg>
   );
 };
-AnimatedBeam.displayName = 'AnimatedBeam';
