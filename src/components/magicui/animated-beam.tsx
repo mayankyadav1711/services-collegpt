@@ -179,3 +179,4 @@ export const AnimatedBeam: React.FC<AnimatedBeamProps> = ({
     </svg>
   );
 };
+export default AnimatedBeam;
