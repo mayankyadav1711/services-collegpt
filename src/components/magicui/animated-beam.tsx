@@ -42,6 +42,7 @@ export function AnimatedBeam({
   startYOffset = 0,
   endXOffset = 0,
   endYOffset = 0,
+// }) => {
 }: AnimatedBeamProps) {
   const id = useId();
   const [pathD, setPathD] = useState("");
@@ -179,3 +180,4 @@ export function AnimatedBeam({
     </svg>
   );
 };
+// AnimatedBeam.displayName = 'AnimatedBeam';
