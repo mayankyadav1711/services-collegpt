@@ -4,7 +4,6 @@ import { AnimatedBeam } from "@/components/magicui/animated-beam";
 // Import useClient if it exists
 // import { useClient } from 'next/client';
 
-// eslint-disable-next-line react/display-name
 const Circle = forwardRef<HTMLDivElement, { className?: string; children?: React.ReactNode }>(({ className, children }, ref) => {
   return (
     <div
@@ -18,7 +17,7 @@ const Circle = forwardRef<HTMLDivElement, { className?: string; children?: React
     </div>
   );
 });
-
+Circle.displayName = 'Circle'; // Corrected display name assignment
 export function Beams() {
   // Use useClient hook if available
   // if (typeof useClient === 'function') {
@@ -75,4 +74,4 @@ export function Beams() {
 // Add display name
 Beams.displayName = 'Beams';
 
-export default Beams;
+module.exports = Beams;
