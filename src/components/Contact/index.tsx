@@ -9,12 +9,15 @@ const Contact = () => {
     message: '',
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false); // New state variable
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true); // Set isSubmitting to true when form is being submitted
     try {
       const response = await fetch('https://api-collegpt.vercel.app/service-contact', {
         method: 'POST',
@@ -32,6 +35,8 @@ const Contact = () => {
       }
     } catch (error) {
       console.error('Error submitting form:', error);
+    } finally {
+      setIsSubmitting(false); // Set isSubmitting back to false after form submission
     }
   };
 
@@ -95,8 +100,8 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button type="submit" className="rounded-sm bg-black dark:bg-white px-4 py-3 text-base font-medium dark:text-black text-white shadow-submit duration-300 hover:bg-white/90 dark:shadow-submit-dark">
-                      Submit
+                    <button type="submit" className="rounded-sm bg-black dark:bg-white px-4 py-3 text-base font-medium dark:text-black text-white shadow-submit duration-300 hover:bg-white/90 dark:shadow-submit-dark" disabled={isSubmitting}>
+                      {isSubmitting ? "Submitting..." : "Submit"}
                     </button>
                   </div>
                 </div>
