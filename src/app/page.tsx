@@ -20,7 +20,7 @@ import { Globe } from "@/components/Globe";
 // import Beams  from "@/components/Beams"
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
+  title: "ColleGPT ~ Get Prepared Together",
   description: "This is Home for Startup Nextjs Template",
   // other metadata
 };
