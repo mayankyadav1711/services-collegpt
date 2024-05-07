@@ -48,7 +48,7 @@ export const LampContainer = ({
           style={{
             backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
           }}
-          className="bg-gradient-conic absolute inset-auto right-1/2 h-56 w-[20rem] sm:w-[30rem] lg:w-[40rem] overflow-visible from-[#12b8ff33] via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top]  dark:via-transparent"
+          className="bg-gradient-conic absolute inset-auto right-1/2 h-56 w-[20rem] sm:w-[30rem] lg:w-[40rem] overflow-visible from-[#12b8ff33] dark:from-[#3087ac]  via-transparent to-transparent text-white [--conic-position:from_70deg_at_center_top]  dark:via-transparent"
         >
           <div className="absolute bottom-0 left-0 z-20 h-40 w-full bg-white [mask-image:linear-gradient(to_top,white,transparent)] dark:bg-black" />
           <div className="absolute bottom-0 left-0 z-20 h-full w-32 bg-white [mask-image:linear-gradient(to_right,white,transparent)] dark:bg-black" />
@@ -61,7 +61,7 @@ export const LampContainer = ({
     duration: 0.8,
     ease: "easeInOut",
   }}
-  className="absolute inset-auto z-50 h-0.5 w-[20rem] sm:w-[30rem] lg:w-[40rem] -translate-y-[7rem] bg-[#12b8ff]  "
+  className="absolute inset-auto z-50 h-0.5 w-[20rem] sm:w-[30rem] lg:w-[40rem] -translate-y-[7rem] bg-[#12b8ff] dark:bg-[#3087ac]"
 ></motion.div>
 
         <motion.div
@@ -75,7 +75,7 @@ export const LampContainer = ({
           style={{
             backgroundImage: `conic-gradient(var(--conic-position), var(--tw-gradient-stops))`,
           }}
-          className="bg-gradient-conic absolute inset-auto left-1/2 h-56 w-[20rem] sm:w-[30rem] lg:w-[40rem] from-transparent via-transparent to-[#12b8ff33] text-white [--conic-position:from_290deg_at_center_top] "
+          className="bg-gradient-conic absolute inset-auto left-1/2 h-56 w-[20rem] sm:w-[30rem] lg:w-[40rem] from-transparent via-transparent to-[#12b8ff33] dark:to-[#3087ac]  text-white [--conic-position:from_290deg_at_center_top] "
         >
           <div className="absolute bottom-0 right-0 z-20 h-full w-32 bg-white [mask-image:linear-gradient(to_left,white,transparent)] dark:bg-black" />
           <div className="absolute bottom-0 right-0 z-20 h-40 w-full bg-white [mask-image:linear-gradient(to_top,white,transparent)] dark:bg-black" />

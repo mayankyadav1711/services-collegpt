@@ -8,7 +8,7 @@ const Choose = () => {
     <>
     <div className="container">
     <div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20">
-      <p className="z-10 whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white">
+      <p className="z-10 whitespace-pre-wrap text-center text-3xl lg:text-5xl font-medium tracking-tighter text-black dark:text-white">
         Why Choose Us
       </p>
       
