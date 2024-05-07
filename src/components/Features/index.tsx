@@ -31,7 +31,7 @@ const Features = () => {
         }}
         className="my-8 dark:bg-gradient-to-br dark:from-slate-300 dark:to-slate-100 bg-gradient-to-b from-black to-gray-600/80 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Main Features <br />
+        Our Services <br />
         
       </motion.h1>
     </LampContainer>
@@ -61,7 +61,7 @@ const Features = () => {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Crafting digital experiences tailored to your vision and audience.
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
@@ -99,14 +99,14 @@ const Features = () => {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white mt-4"
         >
-         App Development
+         Mobile Development
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Delivering cutting-edge mobile solutions for seamless experiences.
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
@@ -144,14 +144,14 @@ const Features = () => {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white mt-4"
         >
-         E-commerce
+         Ecommerce Solution
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Empowering your online business with robust, scalable solutions.
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
@@ -189,14 +189,14 @@ const Features = () => {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white mt-4"
         >
-         Search Engine Optimization
+         SEO Services
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Optimizing your digital presence for maximum visibility and impact.
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
@@ -241,7 +241,7 @@ const Features = () => {
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Designing user-friendly experiences that inspire interaction.
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
@@ -279,14 +279,14 @@ const Features = () => {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white mt-4"
         >
-         Web Hosting
+        Team Extension 
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
         >
-          Hover over this card to unleash the power of CSS perspective
+          Augmenting your team with top-tier talent for project success
         </CardItem>
       
         <div className="flex justify-between items-center mt-2">
