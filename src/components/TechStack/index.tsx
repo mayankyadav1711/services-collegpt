@@ -144,7 +144,7 @@ export function TechStack() {
             Frontend: Our in-house experts craft responsive interfaces that captivate users, using cutting-edge technologies and best practices. 
             <br/>
 
-Backend: We engineer robust backend solutions, ensuring optimal performance and scalability, tailored to meet your project's needs.
+Backend: We engineer robust backend solutions, ensuring optimal performance and scalability, tailored to meet your project`&apos;`s needs.
             </p>
           </div>
         </div>

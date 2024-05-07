@@ -67,7 +67,7 @@ const Choose = () => {
       <div className="">
         <div className="w-6 h-6 border-2 border-white rounded-full bg-blue-700 mt-2"></div>
         <h2 className="dark:text-white text-black text-2xl font-medium mb-5 mt-5">Commitment</h2>
-        <p className="text-gray-400">We are committed to our clients' success, going above and beyond to deliver exceptional results on time and within budget.</p>
+        <p className="text-gray-400">We are committed to our clients success, going above and beyond to deliver exceptional results on time and within budget.</p>
       </div>
         <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#1211644d,rgba(255,255,255,0))]" />
       </MagicCard>
