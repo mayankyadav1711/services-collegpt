@@ -13,7 +13,7 @@ import { Metadata } from "next";
 import Starfield from 'react-starfield';
 import Choose from "@/components/Choose"
 // import { AnimatedBeamMultipleInputDemo } from "@/components/Animated-Beam";
-import { Beams } from "@/components/AnimatedBeam";
+// import { Beams } from "@/components/AnimatedBeam";
 import Review from "@/components/Reviews.tsx";
 import { TechStack } from "@/components/TechStack";
 import { Globe } from "@/components/Globe";
@@ -46,7 +46,7 @@ export default function Home() {
       <Choose />
       <Review />
       {/* <AnimatedBeamMultipleInputDemo /> */}
-      <Beams />
+      {/* <Beams /> */}
       {/* <Beams /> */}
       {/* <Pricing /> */}
       {/* <Blog /> */}
