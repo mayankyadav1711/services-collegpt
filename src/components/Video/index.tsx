@@ -27,7 +27,7 @@ const Video = () => {
 
   return (
 <>
-<div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20 ">
+<div className="relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg bg-background p-20 " id="ourwork">
       <p className="z-10 whitespace-pre-wrap text-center text-3xl lg:text-5xl font-medium tracking-tighter text-black dark:text-white">
         Our Work
       </p>

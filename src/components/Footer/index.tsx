@@ -8,7 +8,7 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-16 dark:bg-transparent md:pt-20 lg:pt-24">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12  sm:flex sm:justify-center">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
@@ -109,7 +109,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className=" sm:w-1/2 lg:w-5/12 xl:w-2/12 sm:flex sm:justify-center">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Useful Links
@@ -117,32 +117,48 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="#services"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      Blog
+                      Services
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="#techstack"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      Pricing
+                      Techstack
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="#work"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      About
+                      Our Work
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#whyus"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
+                    >
+                      Why Choose Us?
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#contact"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
+                    >
+                      Contact Us
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
-
+{/* 
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
@@ -175,63 +191,72 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
-            <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
+            <div className="w-full px-4 md:w-1/2 lg:w-5/12 xl:w-3/12 sm:flex sm:justify-center">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Social Media
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/contact"
+                      href="https://www.linkedin.com/in/collegpt/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      Open Support Ticket
+                      Linkedin
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="https://www.instagram.com/collegpt?igsh=aXFjNTQzemI3eGVx"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      Terms of Use
+                      Instagram
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="https://x.com/ColleGPT?mx=2"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
                     >
-                      About
+                      Twitter
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://chat.whatsapp.com/KKbEWaxNaxt1OI9EVtJxm9"
+                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-cyan-500 dark:text-body-color-dark dark:hover:text-cyan-500"
+                    >
+                      Whatsapp
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
+            
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
+              All rights reserved by{" "}
               <a
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-500"
               >
-                UIdeck
+                 
               </a>{" "}
-              and{" "}
+              {" "}
               <a
                 href="https://nextjstemplates.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-cyan-500"
               >
-                Next.js Templates
+                ColleGPT
               </a>
             </p>
           </div>

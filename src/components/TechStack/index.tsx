@@ -6,7 +6,7 @@ import { cn } from "lib/utils";
 export function TechStack() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="techstack">
         <div className="bg-background relative flex h-full w-full items-center justify-center overflow-hidden rounded-lg p-20">
           <p className="z-10 whitespace-pre-wrap text-center text-3xl font-medium tracking-tighter text-black dark:text-white lg:text-5xl">
             Our Tech Stack
