@@ -65,27 +65,27 @@ const Choose = () => {
     >
       <MagicCard className="flex lg w-full min-h-h-full cursor-pointer flex-col items-start justify-start overflow-hidden p-10 shadow-2xl">
       <div className="">
-        <div className="w-6 h-6 border-2 border-white rounded-full bg-blue-700 mt-2"></div>
+        <div className="w-6 h-6 border-2 border-white rounded-full bg-purple-950 mt-2"></div>
         <h2 className="dark:text-white text-black text-2xl font-medium mb-5 mt-5">Commitment</h2>
         <p className="text-gray-400">We are committed to our clients success, going above and beyond to deliver exceptional results on time and within budget.</p>
       </div>
-        <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#1211644d,rgba(255,255,255,0))]" />
+        <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#3b07644f,rgba(255,255,255,0))]" />
       </MagicCard>
       <MagicCard className="flex w-full cursor-pointer flex-col items-start justify-start overflow-hidden p-10 shadow-2xl">
       <div className="">
-        <div className="w-6 h-6 border-2 border-white rounded-full bg-green-700 mt-2"></div>
+        <div className="w-6 h-6 border-2 border-white rounded-full bg-[#033337] mt-2"></div>
         <h2 className="dark:text-white text-black text-2xl font-medium mb-5 mt-5">Trustworthy</h2>
         <p className="text-gray-400">We build trust through transparency, integrity, and reliability, fostering long-lasting relationships with our clients.</p>
       </div>
-        <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#0337194d,rgba(255,255,255,0))]" />
+        <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#03333778,rgba(255,255,255,0))]" />
       </MagicCard>
       <MagicCard className="flex w-full cursor-pointer flex-col items-start justify-start overflow-hidden p-10 shadow-2xl">
       <div className="">
-        <div className="w-6 h-6 border-2 border-white rounded-full bg-orange-700 mt-2"></div>
+        <div className="w-6 h-6 border-2 border-white rounded-full bg-yellow mt-2"></div>
         <h2 className="dark:text-white text-black text-2xl font-medium mb-5 mt-5">Creative</h2>
         <p className="text-gray-400"> We infuse creativity and innovation into every project, delivering unique and engaging solutions that captivate audiences.</p>
       </div>
-        <div className="pointer-events-none absolute inset-0 h-full bg-[radial-gradient(circle_at_50%_120%,#7c22004d,rgba(255,255,255,0))]" />
+        <div className="pointer-events-none absolute inset-0 h-full dark:bg-[radial-gradient(circle_at_50%_120%,#dd8f063d,rgba(255,255,255,0))] bg-[radial-gradient(circle_at_50%_120%,#dd8f065e,rgba(255,255,255,0))]" />
       </MagicCard>
 
       
