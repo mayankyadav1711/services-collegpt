@@ -75,7 +75,7 @@ const Header = () => {
                   </div>
                   <div className="block md:hidden">
                     <Image
-                      src="/images/favicon.svg"
+                      src="/images/logo/favicon.svg"
                       alt="logo"
                       width={20}
                       height={20}
