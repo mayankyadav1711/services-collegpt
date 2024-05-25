@@ -28,13 +28,13 @@ const Header = () => {
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
-  const handleSubmenu = (index) => {
-    if (openIndex === index) {
-      setOpenIndex(-1);
-    } else {
-      setOpenIndex(index);
-    }
-  };
+  // const handleSubmenu = (index) => {
+  //   if (openIndex === index) {
+  //     setOpenIndex(-1);
+  //   } else {
+  //     setOpenIndex(index);
+  //   }
+  // };
 
   const usePathName = usePathname();
 
@@ -50,7 +50,7 @@ const Header = () => {
       >
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between align-middle">
-            <div className="w-60  px-4 xl:mr-12">
+            <div className="w-40 md:w-60  px-4 xl:mr-12">
               <Link
                 href="/"
                 className={`header-logo block w-full ${
@@ -122,11 +122,11 @@ const Header = () => {
                         ) : (
                           <>
                             <p
-                              onClick={() => handleSubmenu(index)}
+                              // onClick={() => handleSubmenu(index)}
                               className="flex cursor-pointer items-center justify-between py-2 text-base text-dark group-hover:text-cyan-400 dark:text-white/70 dark:group-hover:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6"
                             >
                               {menuItem.title}
-                              <span className="pl-3">
+                              {/* <span className="pl-3">
                                 <svg width="25" height="24" viewBox="0 0 25 24">
                                   <path
                                     fillRule="evenodd"
@@ -135,14 +135,14 @@ const Header = () => {
                                     fill="currentColor"
                                   />
                                 </svg>
-                              </span>
+                              </span> */}
                             </p>
                             <div
                               className={`submenu relative left-0 top-full rounded-sm bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-black lg:invisible lg:absolute lg:top-[110%] lg:block lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full ${
                                 openIndex === index ? "block" : "hidden"
                               }`}
                             >
-                              {menuItem.submenu.map((submenuItem, index) => (
+                              {/* {menuItem.submenu.map((submenuItem, index) => (
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
@@ -150,7 +150,7 @@ const Header = () => {
                                 >
                                   {submenuItem.title}
                                 </Link>
-                              ))}
+                              ))} */}
                             </div>
                           </>
                         )}

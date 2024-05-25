@@ -19,7 +19,7 @@ const Features = () => {
  
   return (
     <>
-      <section id="features" className="">
+      <section id="services" className="">
       <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
@@ -64,7 +64,7 @@ const Features = () => {
           Crafting digital experiences tailored to your vision and audience.
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -81,7 +81,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
@@ -109,7 +109,7 @@ const Features = () => {
           Delivering cutting-edge mobile solutions for seamless experiences.
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -126,7 +126,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
@@ -154,7 +154,7 @@ const Features = () => {
           Empowering your online business with robust, scalable solutions.
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -171,7 +171,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
@@ -199,7 +199,7 @@ const Features = () => {
           Optimizing your digital presence for maximum visibility and impact.
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -216,7 +216,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
@@ -244,7 +244,7 @@ const Features = () => {
           Designing user-friendly experiences that inspire interaction.
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -261,7 +261,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     <CardContainer className="inter-var lg:w-96">
@@ -289,7 +289,7 @@ const Features = () => {
           Augmenting your team with top-tier talent for project success
         </CardItem>
       
-        <div className="flex justify-between items-center mt-2">
+        {/* <div className="flex justify-between items-center mt-2">
           <CardItem
             translateZ={20}
             as={Link}
@@ -306,7 +306,7 @@ const Features = () => {
           >
             Sign up
           </CardItem>
-        </div>
+        </div> */}
       </CardBody>
     </CardContainer>
     </div>
